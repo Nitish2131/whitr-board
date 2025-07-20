@@ -1,7 +1,10 @@
 import React from 'react'
-
-export const Collab = () => {
+import CollabComp from '../components/CollabComp'
+function Collab  ()  {
   return (
-    <div>Collab</div>
+   
+    <CollabComp/>
   )
 }
+
+export default Collab

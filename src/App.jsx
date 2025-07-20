@@ -2,7 +2,7 @@ import { useState } from 'react'
 import React from "react";
 import ReactDOM from "react-dom/client";
 import { BrowserRouter, Routes, Route } from "react-router";
-import { Collab } from './pages/Collab';
+import  Collab  from './pages/Collab';
 import { Realtime } from './pages/Realtime';
 import Test from './pages/Test';
 
@@ -13,7 +13,7 @@ function App() {
     <Routes>
       <Route path="/" element={< Test/>} />
       <Route path="/realtime" element={< Realtime/>} />
-      <Route path="/collab" element={< Collab/>} />
+      <Route path="/collab/:roomId" element={< Collab/>} />
 
     </Routes>
   </BrowserRouter>
