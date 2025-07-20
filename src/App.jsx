@@ -12,8 +12,8 @@ function App() {
     <BrowserRouter>
     <Routes>
       <Route path="/" element={< Test/>} />
-      <Route path="/Realtime" element={< Realtime/>} />
-      <Route path="/Collab" element={< Collab/>} />
+      <Route path="/realtime" element={< Realtime/>} />
+      <Route path="/collab" element={< Collab/>} />
 
     </Routes>
   </BrowserRouter>
